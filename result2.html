@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="lib/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="lib/xml2json.js"></script>
+		<script type="text/javascript" src="lib/jquery.xdomainajax.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body onload='dd()'>
+<div id="main">
+    <div id="header">
+      <div id="logo" >
+        <div id="logo_text">
+          <h1><a href="index.html"><span class="logo_colour">국가 제대로 알고 가자</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li onclick='re1()' style="cursor: pointer"><a>국가 기본 정보</a></li>
+          <li class="selected" onclick='dd()' style="cursor: pointer"><a>국가 안전 정보</a></li>
+          <li onclick='re3()' style="cursor: pointer"><a>여행 경보 상태</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+	<TABLE>
+	<tr><td id='gg'></td><td id='pp'></td></tr>
+	<tr><td id='dd' colspan="2"></td></tr>
+	
+	</TABLE>
+</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
